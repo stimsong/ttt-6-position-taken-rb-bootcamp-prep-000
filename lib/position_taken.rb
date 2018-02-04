@@ -4,8 +4,7 @@ def position_taken?(board, index)
   taken = nil
   if (board[index] == " " || "" || nil)
     taken = FALSE
-  else
-#  board[index] == "X" or "O"
+  elsif (board[index] == "X" or board[taken] == "O")
     taken = TRUE
   end
   taken
