@@ -8,5 +8,5 @@ def position_taken?(board, index)
 #  board[index] == "X" or "O"
     taken = TRUE
   end
-  return taken
+  taken
 end
